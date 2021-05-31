@@ -271,7 +271,7 @@
         </div>
         <div class="form-yuyue icon-arr submit" >
             <div class="title" style="font-size: 16px;color: #333; flex: 1;">预约</div>
-            <div class="num">8</div>
+            <div class="num">9</div>
         </div>
         <div class="form">
             <div class="title">请认真填写信息</div>
@@ -318,6 +318,8 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript">
         $(function () {
+             // 修改页面标题
+            document.title = '预约';
             // 提交
             $('.submit').click(function(){
                 window.location.href=encodeURI("https://itcnz.github.io/sportyuyue?username=" + $('#name').val() + "&userid=" + $('#userid').val() + "&mobile=" + $('#mobile').val());
