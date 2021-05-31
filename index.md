@@ -294,7 +294,7 @@
         $(function () {
             // 提交
             $('.submit').click(function(){
-                window.location.href=encodeURI("file:///E:/demo/yuyue/index.html?username=" + $('#name').val() + "&userid=" + $('#userid').val() + "&mobile=" + $('#mobile').val());
+                window.location.href=encodeURI("https://itcnz.github.io/sportyuyue?username=" + $('#name').val() + "&userid=" + $('#userid').val() + "&mobile=" + $('#mobile').val());
             })
         });
     </script>
