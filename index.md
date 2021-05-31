@@ -163,6 +163,23 @@
         .bottom-img .next-btn::before{
             background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIBJREFUeNpiXLVm/X8G8sAFIHYMCwn8gE8REwP5wACI9wMdKEArC4iyhFILCFrCiB4HwDBlxGcanjjDGifU8AFen1DTAqyWUNsCDEtoYQGKJbSyAG4JLS0AW0JrCxhYSNVAaj6huQ9GLRi1YNSCUQtGLaBJfUBBW3U0DsgDAAEGALjALYL3YnI4AAAAAElFTkSuQmCC");
         }
+        .bottom-img .next-btn{
+            position: relative;
+        }
+        .bottom-img .next-btn::after{
+            content: '9';
+            position: absolute;
+            left: 57%;
+            top: -7px;
+            width: 14px;
+            height: 14px;
+            line-height: 14px;
+            font-size: 10px;
+            background-color: #eb3634;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            overflow: hidden;
+        }
         .icon-arr{
             height: 42px;
             line-height: 42px;
