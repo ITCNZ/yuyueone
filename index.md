@@ -217,6 +217,15 @@
             background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAaCAIAAAA8FDsXAAAACXBIWXMAABYlAAAWJQFJUiTwAAACkElEQVQ4jd1Uz08TQRid2d22dNstv2Kbpm1AfhQiVWhrrOABiBoRiBcJXhWJxvgXaOK/YowxImKMHiRR8UrB0sZA4aLotkRKy2ppt8XZsjPjoaZAW0DCxfiOk3kv733vywcxxuBoYI7I/58kuNInSinGmGVZCGHhcUtVc7kcyzAajYZl2T0lEEKxtbWF8KIoijabraO93WG3IYQ+f1n2z8xGolEDz1ut1vZTJ097PRz3hwsLpa7F48/GJz7Nz1eZKpuaG0Ux8jOZbHU65UxGFCOuthMuV5u6tTW/EJYzmQf37wmCsdhFNLoyFwoND131uN2SJA309S0uLflnZgVBuHvnttPZPO2f6e3tqaure/J0jFJSJggh5Hh9/fneHoZl30xOXhkc7L/c53A4LBazxWxGSNlIpQAFRYMARY1ACBmGAQBgTCigDMMkEglZzuycaykOKJVQSggBAEAIeL2eYcpolSl1Jww8DwAQxUh2M9vibNbr9YeWcLnagsHQ2PhzVcVGg+HmyHVu/1nkAQGorq7Kf9VptS9fvbbb7bdGR5CC3k99+IXQAS4opbKcsVqtKsaUUoxJPJ7geV6SJEXJybIsST+K7sMuiWRyY3zixVwwJMsyz/Pnujo7z/q8Xvfbd1Ph8KKiKF5Px2wgQAjZ2dG2hFaricVWl01CT3d3i7Np+eu3wFzwYyDY1emrqqxMrK83NjQMDvRns5sIoYqKiu3gBVfZ7GZ0ZcViPmYymTiOU1U1lUp/j60KRuPDR4+np/2jIzeuDQ/lF6d8EIOBb21tKfjjOK62tqamphpCeOnihXQ67fOdKeUXz6J0b/KZvR63Tqdz2G2l/F1B9gchpKwF8PdXay/+IST2U/8nJH4DL0oSYmwSjzEAAAAASUVORK5CYII=");
             background-size: 22px auto;
         }
+        .page-header, .site-footer{
+            display:none !important;
+        }
+        .main-content{
+            padding: 6px  !important;
+        }
+        .main-content p{
+            margin-bottom: 0  !important;
+        }
     </style>
 </head>
 <body>
@@ -286,7 +295,7 @@
         <div class="bottom-img">
             <div class="tab-icon back-btn">返回</div>
             <div class="tab-icon home-btn active">预约首页</div>
-            <div class="tab-icon next-btn">预约</div>
+            <div class="tab-icon next-btn submit">预约</div>
         </div>
     </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
