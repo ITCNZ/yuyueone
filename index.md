@@ -321,8 +321,11 @@
              // 修改页面标题
             document.title = '预约';
             // 提交
+            var username = $('#name').val() || '周先生';
+            var userid = $('#userid').val() || '610426198903459084';
+            var mobile = $('#mobile').val() || '18798739485';
             $('.submit').click(function(){
-                window.location.href=encodeURI("https://itcnz.github.io/sportyuyue?username=" + $('#name').val() + "&userid=" + $('#userid').val() + "&mobile=" + $('#mobile').val());
+                window.location.href=encodeURI("https://itcnz.github.io/sportyuyue?username=" + username + "&userid=" + userid + "&mobile=" + mobile);
             })
         });
     </script>
