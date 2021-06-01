@@ -83,6 +83,7 @@
             border: 1px solid #e8e8e8;
             border-radius: 5px;
             padding-left: 10px;
+            -webkit-appearance: none;
         }
         .form .demos textarea{
             height: 100px;
@@ -102,7 +103,7 @@
 
         .form-btns .submit{
             height: 44px;
-            width: 100%;
+            width: 98%;
             line-height: 44px;
             color: #fff;
             border: none;
@@ -110,11 +111,11 @@
             text-align: center;
             border-radius: 5px;
             font-size: 16px;
-            margin-top: 10px;
             background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAA9CAIAAADAlMXdAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAn0lEQVRIie2VsQ3EMAwDT4a67P7Vb5jiJ0grpkgGeNNAAgNWcZ0gQBSp2D54Fd+f2Zn7QYDoZu6H1RekBEA/U/JG0q6ZBpugCoOtCsBgClQQ3RzbrVcpT5NbTxF0s5UADPq79W/ovltDlzFVTK/Yu21Y586YnuI6wF7O5ZW5cug1r0yTQ695xd+tVetnr5+9fvb/qphemS+H9PzPfjqHTogKh8Uf2brrAAAAAElFTkSuQmCC");
             background-repeat: repeat-x;
             overflow: hidden;
             box-shadow: 1px 2px 3px #4a4a4a;
+            margin: 10px auto;
         }
 
         .bottom-img{
