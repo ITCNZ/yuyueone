@@ -116,6 +116,7 @@
             overflow: hidden;
             box-shadow: 1px 2px 3px #4a4a4a;
             margin: 10px auto;
+            display:block;
         }
 
         .bottom-img{
